@@ -58,7 +58,27 @@ Heart disease is one of the leading causes of death worldwide. This project buil
 
 ## 🏆 Results
 
+## 🏆 Results
 
+### Model Comparison
+
+| Model | Accuracy | Precision | Recall | F1 | ROC-AUC |
+|-------|---------:|----------:|-------:|---:|--------:|
+| XGBoost | **86.92%** | **88.34%** | 88.18% | **88.21%** | **92.53%** |
+
+The complete comparison of all evaluated models is shown below.
+
+<p align="center">
+  <img src="assets/heart_disease_result.png"
+       alt="Model Comparison Results"
+       width="900"/>
+</p>
+
+**Key observations**
+- 🥇 XGBoost achieved the best overall performance with an F1-score of **88.21%** and ROC-AUC of **92.53%**.
+- LightGBM was a close second.
+- Tree-based ensemble models consistently outperformed linear models.
+- Since heart disease prediction is a medical screening task, **Recall** and **F1-score** were prioritized over accuracy.
 
 
 **Key predictors:** typically `ST_Slope`, `ChestPainType`, `ExerciseAngina`, `Oldpeak` and `Sex` (see the feature importance chart in the notebook).
