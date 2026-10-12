@@ -69,7 +69,7 @@ Heart disease is one of the leading causes of death worldwide. This project buil
 The complete comparison of all evaluated models is shown below.
 
 <p align="center">
-  <img src="assets/heart_disease_result.png"
+  <img src="asset/heart_disease_result.png"
        alt="Model Comparison Results"
        width="900"/>
 </p>
